@@ -191,5 +191,10 @@ def contact():
     return redirect(url_for("home", _anchor="contact"))
 
 
+@app.route("/resume")
+def resume():
+    return redirect(url_for("static", filename="files/resume.pdf"))
+
+
 if __name__ == "__main__":
     app.run(debug=True)
