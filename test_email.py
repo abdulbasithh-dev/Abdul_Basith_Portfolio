@@ -15,7 +15,7 @@ def test_smtp_configuration():
 
     username = os.environ.get("MAIL_USERNAME")
     password = os.environ.get("MAIL_PASSWORD")
-    recipient = os.environ.get("RECIPIENT_EMAIL", "abasith8074@gmail.com")
+    recipient = os.environ.get("RECIPIENT_EMAIL", "abdulbasithh.dev@gmail.com")
 
     if not username:
         print("[!] ERROR: MAIL_USERNAME environment variable is NOT set.")

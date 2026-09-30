@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Recipient email for contact inquiries
-RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "abasith8074@gmail.com")
+RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "abdulbasithh.dev@gmail.com")
 
 
 def send_contact_email(name, sender_email, message_content):
